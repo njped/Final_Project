@@ -69,13 +69,6 @@ function createContainer() {
             const hideForm = $(this).parent().hide();
             
         });
-            // toggle editComment
-            // when user submits change userComment.val() ( userComment = $(this).val )
-            
-            // userComment = userEdit.val();
-            // toggle editComment
-            // editComment.toggle();
-        
     
         // When the delete class is selected ( delete.click )
         const deleteContainer =  $('.deleteContainer');
@@ -85,19 +78,4 @@ function createContainer() {
     
     
     }
-// Problems to fix
-    // when clicking submit
-        // does not clear the name and the textbox after you click submit
-    // hide edit textbox
-        // doesn't hide the text box
-    // edit text box doesn't get the value of userComment
-    // edit does not give the value to userComment
-    // delete a specific container
-        // only deletes the word "delete"
 
-    // CSS positioning of created container
-        // commentContainer is under the mainForm
-        // edit and delete at the far right
-        // Saved text should be under the user name
-        // edit text box should be under the previously saved text
-        // edit text box width to fit inside of the container
