@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    height: 100vh;
+    width: 100vw;
+}
+
+#mainForm {
+    background-color: white;
+    margin: 0 25px;
+    padding: 25px 15px;
+    position: fixed;
+    width: 95vw;
+    top: 0px;
+}
+
+#mainName {
+    font-size: 22px;
+    font-family: 'Courier New';
+}
+
+#mainComment {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#createComment {
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    margin: 0 25px;
+    padding: 35px 15px;
+    position: fixed;
+    bottom: 0px;
+    width: 95vw;
+}
+
+.createName {
+    padding: 17px 5px;
+    margin: 0 15px;
+    border-radius: 5px;
+    border: .5px solid lightgray;
+    font-size: 19px;
+}
+
+.createComment {
+    padding: 17px 10px;
+    width: 98vw;
+    border-radius: 5px;
+    border: .5px solid lightgray;
+    font-size: 19px;
+}
+
+#submitName {
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: lightblue;
+    margin-bottom: 12px;
+}
+
+#submitName:hover {
+    cursor: pointer;
+}
+
+#userCommentContainer {
+    display: none;
+    margin: 200px 25px 200px 25px;
+    padding: 25px 15px;
+    width: 95vw;
+
+}
+
+.commentContainer {
+    margin: 15px;
+    padding: 5px;
+    width: 93vw;
+    height: 180px;
+    background-color:  white;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#userName {
+    font-size: 18px;
+    font-family: 'Courier New';
+    padding: 10px;
+    margin: 5px;
+    float: left;
+}
+
+.edit {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.edit:hover {
+    cursor: pointer;
+}
+
+.deleteContainer {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+.deleteContainer:hover {
+    cursor: pointer;
+}
+
+.userComment {
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.editComment {
+    display: none;
+}
+
+.editText {
+    padding: 10px;
+    border-radius: 5px;
+    border: .5px solid lightgray;
+    font-size: 16px;
+    width: 65vw;
+}
+
+.submitEdit {
+    background-color: #bbbbbb;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 13px;
+}
